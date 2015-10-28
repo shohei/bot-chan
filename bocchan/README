@@ -1,0 +1,15 @@
+・このプログラムはPython2.6.6での動作を確認しています。
+
+・メインファイルは、generate_markov2gram.pyです。
+
+・同階層に以下のファイルがあることを確認してください。
+（１）形態素のマルコフ連鎖の頻度を示したファイル
+　※添付のmarkov_dict_trimmed_bocchan.txt
+（２）2-gramのファイル
+　※添付の2gram.txt
+（３）字種により形態素を判別するコード
+　※添付のaparser.py
+
+・使い方：ターミナル(あるいはコマンドプロンプト)を開いて,
+$ python generate_markov2gram.py
+でプログラムが起動します。

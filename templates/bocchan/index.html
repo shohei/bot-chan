@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" href="/static/assets/css/bootstrap.css">
+
+</head>
+<body>
+<div class="jumbotron masthead" style="margin:100px">
+<div class="container">
+<h2>人工知能（坊ちゃんベース）と会話しましょう</h2>
+<form action="." method ="post">
+<input type="text" name="conversation" class="span9" style="font-size:200%;height:60px;" >
+<input type="submit" value="Send!" class="btn">
+</form>
+
+{% block content %}
+<h2>あなた：{{ conversation }}</h2>
+<h2>人工知能：{{ sent }}</h2>
+{% endblock %}
+</div>
+</div>
+</body>
+</html>
+
